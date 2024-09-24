@@ -1,0 +1,76 @@
+{
+    "total": 3,
+    "rows": [
+        {
+            "name": "CPB-GS1-MX01",
+            "company": {
+                "name": "Company B"
+            },
+            "location": {
+                "name": "GS1"
+            },
+            "custom_fields": {
+                "Secure Gateway": {
+                    "value": "None"
+                },
+                "Management Protocol": {
+                    "value": "SSH"
+                },
+                "Management IP": {
+                    "value": "192.168.200.1"
+                },
+                "Credential Name": {
+                    "value": "PERSONAL-NETWORK-LOGIN"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "name": "CPB-LON-RUT01",
+            "company": {
+                "name": "Company B"
+            },
+            "location": {
+                "name": "London"
+            },
+            "custom_fields": {
+                "Secure Gateway": {
+                    "value": "None"
+                },
+                "Management Protocol": {
+                    "value": "HTTPS"
+                },
+                "Management IP": {
+                    "value": "10.4.1.2"
+                },
+                "Credential Name": {
+                    "value": "FALLBACK-LOGIN"
+                }
+            }
+        },
+        {
+            "name": "CPD-CMBRDG-VFG01",
+            "company": {
+                "name": "Company D"
+            },
+            "location": {
+                "name": "Cambridge"
+            },
+            "custom_fields": {
+                "Secure Gateway": {
+                    "value": "AUTOSVR"
+                },
+                "Management Protocol": {
+                    "value": "SSH and HTTPS"
+                },
+                "Management IP": {
+                    "value": "192.168.100.1"
+                },
+                "Credential Name": {
+                    "value": "PERSONAL-NETWORK-LOGIN"
+
+                }
+            }
+        }
+    ]
+}
