@@ -8,7 +8,7 @@ $global:OutputEncoding = New-Object Text.Utf8Encoding -ArgumentList (,$false) # 
 [Console]::OutputEncoding = $global:OutputEncoding
 
 function Get-SnipeIT-JSON {
-    $uri = "https://raw.githubusercontent.com/hdinthkld/snipeit-royalts/refs/heads/main/snipe-rts-test.json"
+    $uri = "https://raw.githubusercontent.com/hdinthkld/snipeit-royalts/refs/heads/main/snipe-static-data.json"
     $data = Invoke-WebRequest -Method Get -uri $uri
     $content = $data.Content
     $json = ConvertFrom-Json $content
