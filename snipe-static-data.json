@@ -1,0 +1,356 @@
+{
+    "total": 3,
+    "rows": [
+        {
+            "id": 3,
+            "name": "CPB-GS1-MX01",
+            "asset_tag": "13",
+            "serial": "",
+            "model": {
+                "id": 2,
+                "name": "Juniper MX"
+            },
+            "byod": false,
+            "requestable": false,
+            "model_number": "MX",
+            "eol": null,
+            "asset_eol_date": null,
+            "status_label": {
+                "id": 5,
+                "name": "Deployed",
+                "status_type": "deployable",
+                "status_meta": "deployed"
+            },
+            "category": {
+                "id": 4,
+                "name": "Router"
+            },
+            "manufacturer": {
+                "id": 4,
+                "name": "Juniper"
+            },
+            "supplier": null,
+            "notes": null,
+            "order_number": null,
+            "company": {
+                "id": 1,
+                "name": "Company B"
+            },
+            "location": {
+                "id": 1,
+                "name": "GS1"
+            },
+            "rtd_location": {
+                "id": 3,
+                "name": "Stores"
+            },
+            "image": null,
+            "qr": null,
+            "alt_barcode": "http://snipe.dev.ezideas.co.uk/uploads/barcodes/c128-13.png",
+            "assigned_to": {
+                "id": 1,
+                "name": "GS1",
+                "type": "location"
+            },
+            "warranty_months": null,
+            "warranty_expires": null,
+            "created_by": {
+                "id": 1,
+                "name": "Dev Dev"
+            },
+            "created_at": {
+                "datetime": "2024-09-24 20:21:13",
+                "formatted": "2024-09-24 08:21 PM"
+            },
+            "updated_at": {
+                "datetime": "2024-09-24 20:24:09",
+                "formatted": "2024-09-24 08:24 PM"
+            },
+            "last_audit_date": null,
+            "next_audit_date": null,
+            "deleted_at": null,
+            "purchase_date": null,
+            "age": "",
+            "last_checkout": {
+                "datetime": "2024-09-24 20:21:13",
+                "formatted": "2024-09-24 08:21 PM"
+            },
+            "last_checkin": null,
+            "expected_checkin": null,
+            "purchase_cost": null,
+            "checkin_counter": 0,
+            "checkout_counter": 1,
+            "requests_counter": 0,
+            "user_can_checkout": false,
+            "book_value": null,
+            "custom_fields": {
+                "Secure Gateway": {
+                    "field": "_snipeit_secure_gateway_2",
+                    "value": "None",
+                    "field_format": "ALPHA-NUMERIC",
+                    "element": "listbox"
+                },
+                "Management Protocol": {
+                    "field": "_snipeit_management_protocol_3",
+                    "value": "SSH",
+                    "field_format": "regex:/^[A-Z]+[-\\ +a-zA-Z0-9]*$/",
+                    "element": "listbox"
+                },
+                "Management IP": {
+                    "field": "_snipeit_management_ip_4",
+                    "value": "192.168.200.1",
+                    "field_format": "IPV4",
+                    "element": "text"
+                },
+                "Credential Name": {
+                    "field": "_snipeit_credential_name_5",
+                    "value": "PERSONAL-NETWORK-LOGIN",
+                    "field_format": "ALPHA-DASH",
+                    "element": "listbox"
+                }
+            },
+            "available_actions": {
+                "checkout": true,
+                "checkin": true,
+                "clone": true,
+                "restore": false,
+                "update": true,
+                "delete": false
+            }
+        },
+        {
+            "id": 2,
+            "name": "CPB-LON-RUT01",
+            "asset_tag": "12",
+            "serial": "",
+            "model": {
+                "id": 4,
+                "name": "Teltonika RUT360"
+            },
+            "byod": false,
+            "requestable": false,
+            "model_number": "RUT360",
+            "eol": null,
+            "asset_eol_date": null,
+            "status_label": {
+                "id": 2,
+                "name": "Ready to Deploy",
+                "status_type": "deployable",
+                "status_meta": "deployed"
+            },
+            "category": {
+                "id": 4,
+                "name": "Router"
+            },
+            "manufacturer": {
+                "id": 3,
+                "name": "Teltonika"
+            },
+            "supplier": null,
+            "notes": null,
+            "order_number": null,
+            "company": {
+                "id": 1,
+                "name": "Company B"
+            },
+            "location": {
+                "id": 2,
+                "name": "London"
+            },
+            "rtd_location": {
+                "id": 3,
+                "name": "Stores"
+            },
+            "image": null,
+            "qr": null,
+            "alt_barcode": "http://snipe.dev.ezideas.co.uk/uploads/barcodes/c128-12.png",
+            "assigned_to": {
+                "id": 2,
+                "name": "London",
+                "type": "location"
+            },
+            "warranty_months": null,
+            "warranty_expires": null,
+            "created_by": {
+                "id": 1,
+                "name": "Dev Dev"
+            },
+            "created_at": {
+                "datetime": "2024-09-24 20:17:35",
+                "formatted": "2024-09-24 08:17 PM"
+            },
+            "updated_at": {
+                "datetime": "2024-09-24 20:19:40",
+                "formatted": "2024-09-24 08:19 PM"
+            },
+            "last_audit_date": null,
+            "next_audit_date": null,
+            "deleted_at": null,
+            "purchase_date": null,
+            "age": "",
+            "last_checkout": {
+                "datetime": "2024-09-24 20:19:04",
+                "formatted": "2024-09-24 08:19 PM"
+            },
+            "last_checkin": null,
+            "expected_checkin": null,
+            "purchase_cost": null,
+            "checkin_counter": 0,
+            "checkout_counter": 1,
+            "requests_counter": 0,
+            "user_can_checkout": false,
+            "book_value": null,
+            "custom_fields": {
+                "Secure Gateway": {
+                    "field": "_snipeit_secure_gateway_2",
+                    "value": "None",
+                    "field_format": "ALPHA-NUMERIC",
+                    "element": "listbox"
+                },
+                "Management Protocol": {
+                    "field": "_snipeit_management_protocol_3",
+                    "value": "HTTPS",
+                    "field_format": "regex:/^[A-Z]+[-\\ +a-zA-Z0-9]*$/",
+                    "element": "listbox"
+                },
+                "Management IP": {
+                    "field": "_snipeit_management_ip_4",
+                    "value": "10.4.1.2",
+                    "field_format": "IPV4",
+                    "element": "text"
+                },
+                "Credential Name": {
+                    "field": "_snipeit_credential_name_5",
+                    "value": "FALLBACK-LOGIN",
+                    "field_format": "ALPHA-DASH",
+                    "element": "listbox"
+                }
+            },
+            "available_actions": {
+                "checkout": true,
+                "checkin": true,
+                "clone": true,
+                "restore": false,
+                "update": true,
+                "delete": false
+            }
+        },
+        {
+            "id": 1,
+            "name": "CPD-CMBRDG-VFG01",
+            "asset_tag": "1234567890",
+            "serial": "1234567890",
+            "model": {
+                "id": 1,
+                "name": "Fortigate VM02"
+            },
+            "byod": false,
+            "requestable": false,
+            "model_number": "FMGVM02",
+            "eol": null,
+            "asset_eol_date": null,
+            "status_label": {
+                "id": 2,
+                "name": "Ready to Deploy",
+                "status_type": "deployable",
+                "status_meta": "deployed"
+            },
+            "category": {
+                "id": 2,
+                "name": "Next-Generation Firewall"
+            },
+            "manufacturer": {
+                "id": 1,
+                "name": "Fortinet"
+            },
+            "supplier": null,
+            "notes": null,
+            "order_number": null,
+            "company": {
+                "id": 2,
+                "name": "Company D"
+            },
+            "location": {
+                "id": 6,
+                "name": "Cambridge"
+            },
+            "rtd_location": null,
+            "image": null,
+            "qr": null,
+            "alt_barcode": "http://snipe.dev.ezideas.co.uk/uploads/barcodes/c128-1234567890.png",
+            "assigned_to": {
+                "id": 6,
+                "name": "Cambridge",
+                "type": "location"
+            },
+            "warranty_months": null,
+            "warranty_expires": null,
+            "created_by": {
+                "id": 1,
+                "name": "Dev Dev"
+            },
+            "created_at": {
+                "datetime": "2024-09-22 11:44:46",
+                "formatted": "2024-09-22 11:44 AM"
+            },
+            "updated_at": {
+                "datetime": "2024-09-24 20:13:44",
+                "formatted": "2024-09-24 08:13 PM"
+            },
+            "last_audit_date": null,
+            "next_audit_date": null,
+            "deleted_at": null,
+            "purchase_date": null,
+            "age": "",
+            "last_checkout": {
+                "datetime": "2024-09-24 20:13:44",
+                "formatted": "2024-09-24 08:13 PM"
+            },
+            "last_checkin": {
+                "datetime": "2024-09-24 20:11:13",
+                "formatted": "2024-09-24 08:11 PM"
+            },
+            "expected_checkin": null,
+            "purchase_cost": null,
+            "checkin_counter": 2,
+            "checkout_counter": 3,
+            "requests_counter": 0,
+            "user_can_checkout": false,
+            "book_value": null,
+            "custom_fields": {
+                "Secure Gateway": {
+                    "field": "_snipeit_secure_gateway_2",
+                    "value": "AUTOSVR",
+                    "field_format": "ALPHA-NUMERIC",
+                    "element": "listbox"
+                },
+                "Management Protocol": {
+                    "field": "_snipeit_management_protocol_3",
+                    "value": "SSH and HTTPS",
+                    "field_format": "regex:/^[A-Z]+[-\\ +a-zA-Z0-9]*$/",
+                    "element": "listbox"
+                },
+                "Management IP": {
+                    "field": "_snipeit_management_ip_4",
+                    "value": "192.168.100.1",
+                    "field_format": "IPV4",
+                    "element": "text"
+                },
+                "Credential Name": {
+                    "field": "_snipeit_credential_name_5",
+                    "value": "PERSONAL-NETWORK-LOGIN",
+                    "field_format": "ALPHA-DASH",
+                    "element": "listbox"
+                }
+            },
+            "available_actions": {
+                "checkout": true,
+                "checkin": true,
+                "clone": true,
+                "restore": false,
+                "update": true,
+                "delete": false
+            }
+        }
+    ]
+}
