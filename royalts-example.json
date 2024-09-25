@@ -1,0 +1,77 @@
+{
+    "Objects":  [
+                    {
+                        "Name":  "Company D",
+                        "Objects":  [
+                                        {
+                                            "Name":  "Cambridge",
+                                            "Objects":  [
+                                                            {
+                                                                "Name":  "CPD-CMBRDG-VFG01",
+                                                                "ComputerName":  "192.168.100.1",
+                                                                "ManagementIp":  "",
+                                                                "SecureGatewayID":  "AUTOSVR",
+                                                                "SecureGatewayUsageMode":  1,
+                                                                "SecureGatewayFromParent":  false,
+                                                                "CredentialName":  "PERSONAL-NETWORK-LOGIN",
+                                                                "Type":  "TerminalConnection",
+                                                                "TerminalConnectionType":  "SSH",
+                                                                "Port":  "22",
+                                                                "Notes":  "Exported from SNIPE"
+                                                            }
+                                                        ],
+                                            "Type":  "Folder"
+                                        }
+                                    ],
+                        "Type":  "Folder"
+                    },
+                    {
+                        "Name":  "Company B",
+                        "Objects":  [
+                                        {
+                                            "Name":  "GS1",
+                                            "Objects":  [
+                                                            {
+                                                                "Name":  "CPB-GS1-MX01",
+                                                                "ComputerName":  "192.168.200.1",
+                                                                "ManagementIp":  "",
+                                                                "SecureGatewayID":  "",
+                                                                "SecureGatewayUsageMode":  1,
+                                                                "SecureGatewayFromParent":  false,
+                                                                "CredentialName":  "PERSONAL-NETWORK-LOGIN",
+                                                                "Type":  "TerminalConnection",
+                                                                "TerminalConnectionType":  "SSH",
+                                                                "Port":  "22",
+                                                                "Notes":  "Exported from SNIPE"
+                                                            }
+                                                        ],
+                                            "Type":  "Folder"
+                                        },
+                                        {
+                                            "Name":  "London",
+                                            "Objects":  [
+
+                                                        ],
+                                            "Type":  "Folder"
+                                        }
+                                    ],
+                        "Type":  "Folder"
+                    },
+                    {
+                        "Name":  "Shared",
+                        "Objects":  [
+                                        {
+                                            "SecureGatewayCredentialName":  "SG-CREDENTIAL",
+                                            "ID":  "AUTOSVR",
+                                            "SecureGatewayHost":  "127.0.0.1",
+                                            "Name":  "AUTOSVR",
+                                            "Type":  "SecureGateway",
+                                            "IconName":  "/VMware Clarity/Technology/Router Solid",
+                                            "SecureGatewayCredentialMode":  3,
+                                            "SecureGatewayPort":  "22"
+                                        }
+                                    ],
+                        "Type":  "Folder"
+                    }
+                ]
+}
